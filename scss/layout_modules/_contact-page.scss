@@ -1,0 +1,124 @@
+.contact-page.intro-banner__wrap{
+  .intro-banner__img{
+    @include respond(570){
+      background-position: left;
+      min-width: 100vw;
+    }
+  }
+}
+
+.contact-form__wrap {
+  padding: 70px 0 50px;
+}
+
+.contact-form__heading{
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact__form {
+  .form__input-wrap{
+    @include display-flex();
+
+    @include respond(1024){
+      @include flex-wrap();
+    }
+  }
+  label {
+    display: inline-block;
+    min-width: 60px;
+    margin-right: 15px;
+    @include font-size(22);
+    &.contact__form-label-lg{
+      min-width: 90px;
+    }
+  }
+  .form__textarea{
+    padding: 13px;
+    line-height: 1.6;
+  }
+
+  @include respond(1350) {
+    label {
+      @include font-size(19);
+    }
+  }
+
+  @include respond(1024) {
+    label {
+      @include font-size(18);
+    }
+  }
+}
+
+.contact__form-submit{
+  margin-top: 1rem;
+}
+
+.contact__info{
+  padding-bottom: 70px;
+}
+
+.contact__info-col{
+
+}
+
+.contact__info-col-01{
+  .contact__info-label{
+    min-width: 60px;
+    margin-right: 20px;
+  }
+  @include respond(767){
+    margin-bottom: 20px;
+    .contact__info-label{
+      margin-right: 0;
+     min-width: 110px;
+    }
+  }
+}
+
+.contact__info-col-02{
+  .contact__info-item{
+   @include jc-flex-end();
+  }
+  .contact__info-content{
+    min-width: 101px;
+    text-align: right;
+    color: $textColor;
+    @include transition-03();
+    &:hover, &:focus, &:active{
+      color: $pinkColor;
+    }
+  }
+
+  @include respond(1350){
+    .contact__info-content{
+      min-width: 95px;
+    }
+  }
+  @include respond(767){
+    .contact__info-item{
+      @include jc-flex-start();
+    }
+    .contact__info-label{
+     min-width: 110px;
+    }
+    .contact__info-content{
+      text-align: left;
+      width: auto;
+    }
+  }
+}
+
+.contact__info-item{
+  @include display-flex();
+  @include font-size(22);
+
+  @include respond(1350){
+    @include font-size(19);
+  }
+  @include respond(1024){
+    @include font-size(18);
+  }
+}
+

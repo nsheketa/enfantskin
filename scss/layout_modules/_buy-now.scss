@@ -1,0 +1,165 @@
+.buy-now__wrap {
+  position: relative;
+  bottom: 180px;
+  //border: 1px solid green;
+  max-width: 35%;
+  margin-left: auto;
+  text-align: center;
+  padding-top: 120px;
+  margin-bottom: -180px;
+
+  @include respond(1350) {
+    padding-top: 90px;
+    bottom: 140px;
+    margin-bottom: -140px;
+  }
+  @include respond(1024) {
+    padding-top: 80px;
+    bottom: 90px;
+    margin-bottom: -90px;
+  }
+  @include respond(768) {
+    bottom: 65px;
+    margin-bottom: -65px;
+    max-width: 50%;
+  }
+  @include respond(570) {
+    max-width: 100%;
+    bottom: 20px;
+    margin-bottom: -20px;
+  }
+}
+
+.buy-now__btn {
+  background: url("#{$imgUrl}homepage/buy-now-btn.png") no-repeat center /contain;
+  @include display-flex();
+  @include ai-flex-center();
+  @include jc-flex-center();
+  color: #fff;
+  @include font-size(42);
+  font-weight: 900;
+  text-align: center;
+  z-index: 2;
+  @include square(155px);
+  @include center();
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  @include transition-04();
+
+  &:hover, &:focus, &:active {
+    color: #fff;
+    @include transform-scale(1.05, 1.05);
+  }
+
+  @include respond(1350) {
+    @include font-size(36);
+    @include square(130px);
+  }
+  @include respond(1024) {
+    @include font-size(26);
+    @include square(100px);
+  }
+}
+
+.buy-now__product-wrap {
+
+  h4 {
+
+  }
+}
+
+.buy-now__product {
+  text-align: center;
+  display: inline-block;
+  margin: 0 15px 10px;
+
+  &:last-of-type{
+    margin-left: -20px;
+  }
+  p {
+    @include font-size(22);
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  @include respond(1350){
+    p{
+      @include font-size(19);
+    }
+  }
+  @include respond(1024) {
+    margin: 0 5px 10px;
+    &:last-of-type{
+      margin-left: 5px;
+    }
+    p{
+      @include font-size(18);
+    }
+  }
+}
+
+.buy-now__product-img {
+  height: 140px;
+  margin-bottom: 10px;
+  img {
+    width: auto;
+    height: 100%;
+  }
+  @include respond(1350) {
+    height: 110px;
+  }
+  @include respond(1024) {
+    height: 95px;
+  }
+}
+
+
+/*--Inner pages--*/
+
+.buy-now__inner-page{
+  position: relative;
+  bottom: 150px;
+
+  @include respond(1350) {
+    bottom: 140px;
+  }
+  @include respond(1024) {
+    padding-top: 80px;
+    bottom: 90px;
+    margin-bottom: -90px;
+  }
+  @include respond(768) {
+    bottom: 65px;
+  }
+  @include respond(570) {
+    bottom: 20px;
+  }
+  //margin-bottom: -120px;
+
+  //&.tips-page{
+  //  bottom: 120px;
+  //  margin-bottom: -180px;
+  //}
+  //
+  //@include respond(1024){
+  //  bottom: 150px;
+  //}
+  //
+  //@include respond(768){
+  //  &.tips-page{
+  //    bottom: 85px;
+  //    margin-bottom: -140px;
+  //  }
+  //}
+  //
+  //@include respond(570){
+  //  margin-bottom: -90px;
+  //  bottom: 120px;
+  //
+  //  &.tips-page{
+  //    bottom: 50px;
+  //    margin-bottom: -100px;
+  //  }
+  //}
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg enable-background="new 0 0 12.6 26.2" version="1.1" viewBox="0 0 12.6 26.2" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="#585C5D" stroke-miterlimit="10" stroke-width=".5">
+	<circle cx="3" cy="16.5" r="2.7"/>
+	<circle cx="3" cy="3" r="2.7"/>
+	<circle cx="9.7" cy="9.7" r="2.7"/>
+	<circle cx="9.7" cy="23.3" r="2.7"/>
+	<line x1="4.9" x2="7.8" y1="18.4" y2="21.3"/>
+	<line x1="4.9" x2="7.8" y1="14.6" y2="11.7"/>
+	<line x1="4.9" x2="7.8" y1="4.9" y2="7.8"/>
+</g>
+</svg>

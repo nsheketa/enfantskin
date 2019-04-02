@@ -1,0 +1,51 @@
+@import "../modules/bootstrap/scss/bootstrap-grid";
+@import "../modules/bootstrap/scss/variables";
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 1024px,
+        xl: 1200px
+);
+
+@import "../modules/bootstrap/scss/bootstrap";
+@import "../js/vendor/slick/slick";
+
+@import "custom-variables";
+
+@import "fonts";
+
+@import "mixins";
+@import "custom-reset";
+@import "layout_modules/general-layout-styles";
+@import "layout_modules/text-styles";
+@import "layout_modules/header";
+@import "layout_modules/footer";
+@import "layout_modules/modal";
+@import "layout_modules/homepage";
+@import "layout_modules/follow";
+@import "layout_modules/buy-now";
+@import "layout_modules/product-slider";
+@import "layout_modules/product-list";
+@import "layout_modules/login-page";
+@import "layout_modules/register-page";
+@import "layout_modules/intro-banner";
+@import "layout_modules/story-page";
+@import "layout_modules/product-page";
+@import "layout_modules/use-page";
+@import "layout_modules/purchase-page";
+@import "layout_modules/cart-page";
+@import "layout_modules/checkout-page";
+@import "layout_modules/success-page";
+@import "layout_modules/tips-page";
+@import "layout_modules/news-page";
+@import "layout_modules/contact-page";
+@import "layout_modules/news-detail-page";
+@import "layout_modules/celabio-page";
+
+
+
+
+
+
+

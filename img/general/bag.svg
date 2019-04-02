@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg enable-background="new 15.9 61.6 572.2 668.9" version="1.1" viewBox="15.9 61.6 572.2 668.9" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="#585C5D" stroke-miterlimit="10" stroke-width=".5">
+	<rect x="177.2" y="255.1" width="410.7" height="475.1"/>
+	<rect x="16.1" y="255.1" width="153" height="475.1"/>
+	<path d="m499.3 255.1v-64.4c0-72.5-56.4-128.8-128.8-128.8s-128.8 64.4-128.8 128.8v64.4"/>
+	<path d="m354.3 255.1v-64.4c0-72.5-56.4-128.8-128.8-128.8s-128.9 64.3-128.9 128.8v64.4"/>
+	<line x1="96.6" x2="96.6" y1="255.1" y2="633.6"/>
+</g>
+</svg>

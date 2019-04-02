@@ -1,0 +1,29 @@
+$Avenir: 'Avenir', sans-serif;
+$Notosans: 'NotoSansHant';
+
+$baseFontFamily: $Notosans, "Microsoft JhengHei", STHeiti, 华文黑体, SimHei, 黑体, sans-serif;
+$baseEngFontFamily: $Avenir;
+
+@mixin font-size($size:18) {
+  font-size: $size * 1px;
+  font-size: ($size / $baseFontSize) * 1rem;
+}
+
+$baseFontSize: 18;
+$baseFontSizePixel: $baseFontSize * 1px;
+
+$baseLineHeight: 1.6;
+$baseLetterSpacing: 1px;
+$textColor: #585c5c;
+$bodyBackground: #fee7d5;
+$redHeadingColor: #f16647;
+
+$lightGreyColor: #808284;
+$blueColor: #7197b6;
+$orangeColor: #f59074;
+$darkPinkColor: #d47d90;
+$pinkColor: #ec7ea5;
+
+$fontsUrl: "../fonts/";
+$imgUrl: "../img/";
+

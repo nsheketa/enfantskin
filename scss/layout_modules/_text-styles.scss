@@ -1,0 +1,123 @@
+h1,.h1{
+  @include font-size(51);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+
+  &.h1_lg{
+    @include font-size(90);
+  }
+
+  @include respond(1350){
+    @include font-size(45);
+    &.h1_lg{
+      @include font-size(70);
+    }
+  }
+  @include respond(1024){
+    @include font-size(35);
+    &.h1_lg{
+      @include font-size(50);
+    }
+  }
+  @include respond(768){
+    &.h1_lg{
+      @include font-size(35);
+    }
+  }
+}
+
+.h1__subheading{
+  @include font-size(17);
+  font-weight: 300;
+}
+
+h2,.h2{
+  @include font-size(36);
+  font-weight: 900;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+  @include respond(1350){
+    @include font-size(32);
+  }
+  @include respond(1024){
+    @include font-size(25);
+  }
+}
+
+h3,.h3{
+  @include font-size(25);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+
+  @include respond(1350){
+    @include font-size(22);
+  }
+  @include respond(1024){
+    @include font-size(20);
+  }
+}
+
+h4,.h4{
+  @include font-size(22);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+
+  @include respond(1350){
+    @include font-size(19);
+  }
+  @include respond(1024){
+    @include font-size(18);
+  }
+}
+
+//h5,.h5{
+//  @include font-size(18);
+//
+//  @include respond(1024){
+//    @include font-size(16);
+//  }
+//}
+
+h5,.h5{
+  @include font-size(16);
+  font-weight: 600;
+
+  @include respond(1024){
+    @include font-size(14);
+  }
+}
+
+p{
+  @include font-size(18);
+  font-weight: 300;
+  margin-bottom: 2rem;
+  &:last-of-type{
+    margin-bottom: 0;
+  }
+
+  @include respond(1350){
+    @include font-size(17);
+    margin-bottom: 1rem;
+  }
+
+  @include respond(1024){
+    @include font-size(16);
+    margin-bottom: 1rem;
+  }
+}
+
+.text-eng{
+  font-family: $baseEngFontFamily;
+}
+
+.text__red{
+  color: $redHeadingColor;
+}
+
+.text__sub{
+  vertical-align: sub;
+  font-size: 70%;
+ }

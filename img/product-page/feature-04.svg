@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg enable-background="new 0 0 16.8 19.9" version="1.1" viewBox="0 0 16.8 19.9" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="#585C5D" stroke-miterlimit="10" stroke-width=".5">
+	<circle cx="7.1" cy="10.1" r="5.8"/>
+	<path d="m0.3 3.3c3.7-3.7 9.7-3.7 13.5 0s3.7 9.8 0 13.5c-1.9 1.9-4.3 2.8-6.8 2.8"/>
+	<polyline points="0.3 0 0.3 3.4 3.7 3.4"/>
+	<polyline points="7.1 6.4 7.1 10.1 4.8 12.4"/>
+</g>
+</svg>

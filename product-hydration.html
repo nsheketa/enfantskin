@@ -1,0 +1,424 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Product</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--<link rel="manifest" href="site.webmanifest">-->
+
+    <!--<link rel="shortcut icon" href="img/tab.ico">-->
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<div class="is-mobile"></div>
+<div class="header__outer">
+    <header class="header">
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+
+        <div class="header__inner">
+            <div class="header__top">
+                <div class="container d-flex">
+                    <div class="header-top__item header-socials text-eng">
+                        <a href="#" class="header-socials__link">
+                            <svg class="icon">
+                                <use xlink:href="css/symbol-defs.svg#icon-fb"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="header-socials__link">
+                            <svg class="icon">
+                                <use xlink:href="css/symbol-defs.svg#icon-insta"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header-top__item header-register">
+                        <a href="login.html" class="header-register__item header-register__link">登入</a>
+                        <a href="register.html" class="header-register__item header-login__link">註冊</a>
+                    </div>
+                    <div class="header-top__item header-lang">
+                        <a href="#" class="header-lang__link">中</a>
+                        <a href="#" class="header-lang__link text-eng">ENG</a>
+                    </div>
+                </div>
+            </div>  <!--header-top-->
+
+            <div class="header__center">
+                <div class="container">
+                    <nav class="header-nav">
+                        <a href="index.html" class="header__logo hide-in-mob">
+                            <img src="img/logo.svg" alt="EnfantSkin Logo">
+                        </a>
+                        <ul class="header-menu__list">
+                            <li class="header-menu__list-item">
+                                <a href="story.html" class="header-menu__list-link"><span
+                                        class="text-eng">Enfantskin</span>故事</a>
+                            </li>
+                            <li class="header-menu__list-item">
+                                <a href="purchase.html" class="header-menu__list-link">
+                                    <svg class="icon">
+                                        <use xlink:href="css/symbol-defs.svg#icon-bag"></use>
+                                    </svg>
+                                    立即購買！</a>
+                            </li>
+                            <li class="header-menu__list-item">
+                                <a href="tips.html" class="header-menu__list-link">年輕提示</a>
+                            </li>
+                            <li class="header-menu__list-item">
+                                <a href="news.html" class="header-menu__list-link">最新消息</a>
+                            </li>
+                            <li class="header-menu__list-item">
+                                <a href="contact.html" class="header-menu__list-link">聯絡我們</a>
+                            </li>
+                        </ul>
+                        <div class="header-top__item header-contact">
+                            <a href="tel:28136188" class="header-contact__link">
+                                <svg class="icon">
+                                    <use xlink:href="css/symbol-defs.svg#icon-phone-border"></use>
+                                </svg>
+                                <span class="header-contact__text">2813 6188</span>
+                            </a>
+                            <a href="tel:68998688" class="header-contact__link">
+                                <svg class="icon">
+                                    <use xlink:href="css/symbol-defs.svg#icon-messenger"></use>
+                                </svg>
+                                <span class="header-contact__text">6899 8688</span>
+                            </a>
+                        </div>
+                        <div class="header__cart hide-in-mob">
+                            <div class="product__btn-wrap btn-blue__sm-wrap">
+                                <a href="#header__cart-modal"
+                                   class="header__cart-link button button_blue button_blue-sm">購物車</a>
+                            </div>
+                        </div>
+                    </nav>  <!--header-nav-->
+                </div>
+            </div>
+
+            <ul class="header-categories__list">
+                <li class="header-categories__list-item">
+                    <a href="product-mask.html" class="header-categories__list-link">
+                    <span class="header-categories__icon"
+                          style="background-image: url('img/general/header-icon-01.svg')"></span>
+                        <div class="header-categories__list-content">
+                            <span class="header-categories__list-text">活顏注氧面膜</span>
+                            <span class="text-eng header-categories__list-link-comment">CO<span
+                                    class="text__sub">2</span> Bubble Mask</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="header-categories__list-item is-active">
+                    <a href="product-hydration.html" class="header-categories__list-link">
+                        <span class="header-categories__icon"
+                              style="background-image: url('img/general/header-icon-02.svg')"></span>
+                        <div class="header-categories__list-content">
+                            <span class="header-categories__list-text"><span class="text-eng">B5</span>特強補濕精華</span>
+                            <span class="text-eng header-categories__list-link-comment">快將推出</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="header-categories__list-item">
+                    <a href="product-sun.html" class="header-categories__list-link">
+                    <span class="header-categories__icon"
+                          style="background-image: url('img/general/header-icon-03.svg')"></span>
+                        <div class="header-categories__list-content">
+                            <span class="header-categories__list-text">抗<span class="text-eng">UV</span>修護防曬霜</span>
+                            <span class="text-eng header-categories__list-link-comment">快將推出</span>
+                        </div>
+                    </a>
+                </li>
+            </ul> <!--header-categories-->
+
+        </div>  <!--header-inner-->
+
+        <div class="header__logo-wrap show-in-mob">
+            <a href="index.html" class="header__logo">
+                <img src="img/logo.svg" alt="EnfantSkin Logo">
+            </a>
+        </div> <!--header-logo-->
+    </header>
+    <div class="container header__cart-container">
+        <div id="header__cart-modal" class="header__cart-modal">
+            <div class="header__cart-item">
+
+                <div class="header__cart-row">
+                    <span class="header__cart-name">活顏注氧面膜（10包裝）</span>
+
+                </div>
+                <div class="header__cart-row header__cart-quantity">
+                    <span class="product__quantity-title">數量：</span>
+                    <button class="product__quantity-btn product__quantity-decrease">-</button>
+                    <div class="form-input__wrap form-input__num-wrap">
+                        <input type="text" class="form__input form__input-num" value="1">
+                    </div>
+                    <button class="product__quantity-btn product__quantity-increase">+</button>
+
+
+                    <button type="button" class="header__cart-remove-item">
+                        <svg class="icon">
+                            <use xlink:href="css/symbol-defs.svg#icon-close"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="header__cart-row">
+                    <span class="header__cart-num text-eng">1</span>
+                    <span class="header__cart-comment">項目 購物車小計：</span>
+                    <span class="header__cart-price text-eng">HK$48.00</span>
+                </div>
+            </div>
+            <div class="header__cart-action">
+                <a href="cart.html" class="button button_blue-common">編輯購物車</a>
+                <a href="checkout.html" class="button button_pink">結賬</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page__content-inner">
+    <div class="header__cart show-in-mob">
+        <div class="product__btn-wrap btn-blue__sm-wrap">
+            <a href="#header__cart-modal" class="header__cart-link button button_blue button_blue-sm">購物車</a>
+        </div>
+    </div>
+    <nav class="breadcrumb__list">
+        <div class="container">
+            <ol>
+                <li class="breadcrumb__list-item"><a href="index.html" class="breadcrumb__list-link">主頁</a></li>
+                <!--<li class="breadcrumb__list-item"><a href="#" class="breadcrumb__list-link">面膜產品 </a></li>-->
+                <li class="breadcrumb__list-item is-active"><a href="#"
+                                                               class="breadcrumb__list-link">B5特強補濕精華</a></li>
+            </ol>
+        </div>
+    </nav>
+
+    <main class="main product-page">
+
+        <div class="product__content-wrap">
+            <div class="container-fluid">
+                <div class="row no-gutters">
+                    <div class="col-12 col-lg-2">
+                        <ul class="product-categories__list">
+                            <li class="product-categories__list-item">
+                                <a href="product-mask.html" class="product-categories__list-link">活顏注氧面膜</a></li>
+                            <li class="product-categories__list-item  is-active">
+                                <a href="product-hydration.html" class="product-categories__list-link">B5特強補濕精華</a></li>
+                            <li class="product-categories__list-item">
+                                <a href="product-sun.html" class="product-categories__list-link">抗UV修護防曬霜</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-10">
+                        <div class="product-categories__content product-hydration">
+                            <div class="product-list product-hydration">
+                                <div class="product-list__row d-block">
+                                    <div class="product__img-wrap">
+                                        <div class="product__img">
+                                            <img src="img/product-page/product-hydration-01.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="product__heading">
+                                        <h1>B5特強補濕精華</h1>
+                                        <div class="h4">天然補濕修護</div>
+                                    </div>
+                                    <div class="product__info">
+                                        <p>通過維生素B5及透明質酸配方，深度修護肌膚，促進細胞再生。令肌膚飽滿健康、回復水潤，更有助減褪細紋、乾紋，收細毛孔，改善膚質，重拾柔、嫩、彈的BB肌。</p>
+                                    </div>
+                                </div>
+                                <div class="product__btn-wrap btn-blue__md-wrap">
+                                    <button class="button button_blue button_blue-md">快將推出</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product__features">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="product__features-item">
+                            <div class="product__features-icon">
+                                <img src="img/product-page/feature-01.png" alt="">
+                            </div>
+                            <div class="product__features-content">
+                                <h2><a href="#">粉刺 / 暗瘡</a></h2>
+                                <p>
+                                    粉刺和暗瘡主要源自油脂分泌與毛孔閉塞問題。CO2 Bubble Mask有助排走肌底廢物，收細毛孔，同步平衡pH值，防止問題出現，有效消除瑕疵。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="product__features-item">
+                            <div class="product__features-icon product__features-icon-lg">
+                                <img src="img/product-page/feature-04.png" alt="">
+                            </div>
+                            <div class="product__features-content">
+                                <h2><a href="#">抗衰</a></h2>
+                                <p>
+                                    CO2 Bubble Mask針對性促進膠原蛋白和透明質酸形成，令肌膚回復年輕狀態。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="product__features-item">
+                            <div class="product__features-icon">
+                                <img src="img/product-page/feature-07.png" alt="">
+                            </div>
+                            <div class="product__features-content">
+                                <h2><a href="#">抗皺</a></h2>
+                                <p>
+                                    皺紋因肌膚缺水及膠原蛋白流失而起，CO2 Bubble Mask有助補水及促進膠原蛋白形成，令肌膚回復緊緻。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="product__features-item">
+                            <div class="product__features-icon product__features-icon-lg">
+                                <img src="img/product-page/feature-05.png" alt="">
+                            </div>
+                            <div class="product__features-content">
+                                <h2><a href="#">膠原蛋</a></h2>
+                                <p>
+                                    膠原蛋白為肌膚年輕的要素。CO2 Bubble Mask蘊含的Celabio納豆酵素及天然提煉精華，有助促進膠原蛋白合成，重拾再生力量。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="product__features-item">
+                            <div class="product__features-icon">
+                                <img src="img/product-page/feature-08.png" alt="">
+                            </div>
+                            <div class="product__features-content">
+                                <h2><a href="#">補</a></h2>
+                                <p>
+                                    隨年紀增長，真皮層退化使肌膚含水量降低，CO2 Bubble Mask有效幫助細胞更生，回復水潤。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="product__features-item">
+                            <div class="product__features-icon">
+                                <img src="img/product-page/feature-03.png" alt="">
+                            </div>
+                            <div class="product__features-content">
+                                <h2><a href="#">保濕</a></h2>
+                                <p>
+                                    CO2 Bubble Mask蘊含的納豆酵素及天然提煉精華，有助防止透明質酸分解，肌膚鎖水力徹底提昇。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="product__features-item">
+                            <div class="product__features-icon product__features-icon-lg">
+                                <img src="img/product-page/feature-06.png" alt="">
+                            </div>
+                            <div class="product__features-content">
+                                <h2><a href="#">注氧</a></h2>
+                                <p>
+                                    CO2 Bubble Mask的高濃度CO2 19000ppm配方，直接刺激肌底紅血球釋放大量氧氣，加速肌膚血液循環，解決年紀導致肌膚新陳代謝變慢的問題。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="product__features-item">
+                            <div class="product__features-icon">
+                                <img src="img/product-page/feature-09.png" alt="">
+                            </div>
+                            <div class="product__features-content">
+                                <h2><a href="#">敏感</a></h2>
+                                <p>
+                                    CO2 Bubble Mask有助消炎抗菌，經修護的肌膚回復生命力，無懼外在環境刺激。敏感肌膚，同樣適用。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <a href="index.html" class="footer__logo">
+            <img src="img/logo.svg" alt="EnfantSkin Logo">
+        </a>
+
+        <div class="footer-social">
+            <a href="#" class="footer-social__link">
+                <svg class="icon">
+                    <use xlink:href="css/symbol-defs.svg#icon-mail"></use>
+                </svg>
+            </a>
+            <a href="#" class="footer-social__link">
+                <svg class="icon">
+                    <use xlink:href="css/symbol-defs.svg#icon-insta"></use>
+                </svg>
+            </a>
+            <a href="#" class="footer-social__link">
+                <svg class="icon">
+                    <use xlink:href="css/symbol-defs.svg#icon-fb"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="footer-contact">
+            <a href="tel:68998688" class="footer-contact__item">
+                <span class="footer-contact__icon">
+                    <svg class="icon">
+                    <use xlink:href="css/symbol-defs.svg#icon-messenger"></use>
+                    </svg>
+                     </span>
+                6899 8688
+            </a>
+            <a href="tel:28136188" class="footer-contact__item">
+                <span class="footer-contact__icon">
+                    <svg class="icon">
+                    <use xlink:href="css/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                       </span>
+                2813 6188
+            </a>
+            <div class="footer-contact__address">
+                香港柴灣嘉業街18號明報工業中心B座19樓1907室
+            </div>
+        </div>
+        <div class="footer-privacy text-eng">
+            <a href="#" class="footer-privacy__link">Privacy Policy</a>
+            <p>Copyright © 2018 Water Oasis Group Limited. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="js/vendor/jquery-3.2.1.min.js"></script>
+<script src="modules/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/vendor/svgxuse.js"></script>
+<script src="js/vendor/slick/slick.js"></script>
+<script src="js/vendor/jquery.inputmask.bundle.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

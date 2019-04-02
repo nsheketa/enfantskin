@@ -1,0 +1,446 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Checkout</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--<link rel="manifest" href="site.webmanifest">-->
+
+    <!--<link rel="shortcut icon" href="img/tab.ico">-->
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<div class="is-mobile"></div>
+<div class="header__outer">
+    <header class="header">
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+
+        <div class="header__inner">
+            <div class="header__top">
+                <div class="container d-flex">
+                    <div class="header-top__item header-socials text-eng">
+                        <a href="#" class="header-socials__link">
+                            <svg class="icon">
+                                <use xlink:href="css/symbol-defs.svg#icon-fb"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="header-socials__link">
+                            <svg class="icon">
+                                <use xlink:href="css/symbol-defs.svg#icon-insta"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header-top__item header-register">
+                        <a href="login.html" class="header-register__item header-register__link">登入</a>
+                        <a href="register.html" class="header-register__item header-login__link">註冊</a>
+                    </div>
+                    <div class="header-top__item header-lang">
+                        <a href="#" class="header-lang__link">中</a>
+                        <a href="#" class="header-lang__link text-eng">ENG</a>
+                    </div>
+                </div>
+            </div>  <!--header-top-->
+
+            <div class="header__center">
+                <div class="container">
+                    <nav class="header-nav">
+                        <a href="index.html" class="header__logo hide-in-mob">
+                            <img src="img/logo.svg" alt="EnfantSkin Logo">
+                        </a>
+                        <ul class="header-menu__list">
+                            <li class="header-menu__list-item">
+                                <a href="story.html" class="header-menu__list-link"><span
+                                        class="text-eng">Enfantskin</span>故事</a>
+                            </li>
+                            <li class="header-menu__list-item is-active">
+                                <a href="purchase.html" class="header-menu__list-link">
+                                    <svg class="icon">
+                                        <use xlink:href="css/symbol-defs.svg#icon-bag"></use>
+                                    </svg>
+                                    立即購買！</a>
+                            </li>
+                            <li class="header-menu__list-item">
+                                <a href="tips.html" class="header-menu__list-link">年輕提示</a>
+                            </li>
+                            <li class="header-menu__list-item">
+                                <a href="news.html" class="header-menu__list-link">最新消息</a>
+                            </li>
+                            <li class="header-menu__list-item">
+                                <a href="contact.html" class="header-menu__list-link">聯絡我們</a>
+                            </li>
+                        </ul>
+                        <div class="header-top__item header-contact">
+                            <a href="tel:28136188" class="header-contact__link">
+                                <svg class="icon">
+                                    <use xlink:href="css/symbol-defs.svg#icon-phone-border"></use>
+                                </svg>
+                                <span class="header-contact__text">2813 6188</span>
+                            </a>
+                            <a href="tel:68998688" class="header-contact__link">
+                                <svg class="icon">
+                                    <use xlink:href="css/symbol-defs.svg#icon-messenger"></use>
+                                </svg>
+                                <span class="header-contact__text">6899 8688</span>
+                            </a>
+                        </div>
+                        <div class="header__cart hide-in-mob">
+                            <div class="product__btn-wrap btn-blue__sm-wrap">
+                                <a href="#header__cart-modal"
+                                   class="header__cart-link button button_blue button_blue-sm">購物車</a>
+                            </div>
+                        </div>
+                    </nav>  <!--header-nav-->
+                </div>
+            </div>
+
+            <ul class="header-categories__list">
+                <li class="header-categories__list-item">
+                    <a href="product-mask.html" class="header-categories__list-link">
+                    <span class="header-categories__icon"
+                          style="background-image: url('img/general/header-icon-01.svg')"></span>
+                        <div class="header-categories__list-content">
+                            <span class="header-categories__list-text">活顏注氧面膜</span>
+                            <span class="text-eng header-categories__list-link-comment">CO<span
+                                    class="text__sub">2</span> Bubble Mask</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="header-categories__list-item">
+                    <a href="product-hydration.html" class="header-categories__list-link">
+                        <span class="header-categories__icon"
+                              style="background-image: url('img/general/header-icon-02.svg')"></span>
+                        <div class="header-categories__list-content">
+                            <span class="header-categories__list-text"><span class="text-eng">B5</span>特強補濕精華</span>
+                            <span class="text-eng header-categories__list-link-comment">快將推出</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="header-categories__list-item">
+                    <a href="product-sun.html" class="header-categories__list-link">
+                    <span class="header-categories__icon"
+                          style="background-image: url('img/general/header-icon-03.svg')"></span>
+                        <div class="header-categories__list-content">
+                            <span class="header-categories__list-text">抗<span class="text-eng">UV</span>修護防曬霜</span>
+                            <span class="text-eng header-categories__list-link-comment">快將推出</span>
+                        </div>
+                    </a>
+                </li>
+            </ul> <!--header-categories-->
+
+        </div>  <!--header-inner-->
+
+        <div class="header__logo-wrap show-in-mob">
+            <a href="index.html" class="header__logo">
+                <img src="img/logo.svg" alt="EnfantSkin Logo">
+            </a>
+        </div> <!--header-logo-->
+    </header>
+    <div class="container header__cart-container">
+        <div id="header__cart-modal" class="header__cart-modal">
+            <div class="header__cart-item">
+
+                <div class="header__cart-row">
+                    <span class="header__cart-name">活顏注氧面膜（10包裝）</span>
+
+                </div>
+                <div class="header__cart-row header__cart-quantity">
+                    <span class="product__quantity-title">數量：</span>
+                    <button class="product__quantity-btn product__quantity-decrease">-</button>
+                    <div class="form-input__wrap form-input__num-wrap">
+                        <input type="text" class="form__input form__input-num" value="1">
+                    </div>
+                    <button class="product__quantity-btn product__quantity-increase">+</button>
+
+
+                    <button type="button" class="header__cart-remove-item">
+                        <svg class="icon">
+                            <use xlink:href="css/symbol-defs.svg#icon-close"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="header__cart-row">
+                    <span class="header__cart-num text-eng">1</span>
+                    <span class="header__cart-comment">項目 購物車小計：</span>
+                    <span class="header__cart-price text-eng">HK$48.00</span>
+                </div>
+            </div>
+            <div class="header__cart-action">
+                <a href="cart.html" class="button button_blue-common">編輯購物車</a>
+                <a href="checkout.html" class="button button_pink">結賬</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page__content-inner">
+    <div class="header__cart show-in-mob">
+        <div class="product__btn-wrap btn-blue__sm-wrap">
+            <a href="#header__cart-modal" class="header__cart-link button button_blue button_blue-sm">購物車</a>
+        </div>
+    </div>
+    <nav class="breadcrumb__list">
+        <div class="container">
+            <ol>
+                <li class="breadcrumb__list-item"><a href="index.html" class="breadcrumb__list-link">主頁</a></li>
+                <li class="breadcrumb__list-item"><a href="#" class="breadcrumb__list-link">購物車</a></li>
+                <li class="breadcrumb__list-item is-active"><a href="product-mask.html" class="breadcrumb__list-link">結賬</a>
+                </li>
+            </ol>
+        </div>
+    </nav>
+
+    <main class="main checkout-page">
+        <form class="checkout__form">
+            <div class="checkout-content__wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-7 shipping__form-item shipping__form-item-01">
+                            <div class="shipping__heading">
+                                <h3>訂單預覽</h3>
+                            </div>
+                            <div class="checkout__info-wrap">
+                                <div class="checkout__product checkout__info-item">
+                                    <p>活顏注氧面膜（10包裝）X<span class="checkout__product-quantity">1</span></p>
+                                </div>
+                                <div class="checkout__info">
+                                    <div class="checkout__info-item row">
+                                        <div class="col-8">
+                                            <p>小計</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="text-eng">HK$888.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="checkout__info-item row">
+                                        <div class="col-8">
+                                            <p>稅</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="text-eng">HK$0</p>
+                                        </div>
+                                    </div>
+                                    <div class="checkout__info-item row">
+                                        <div class="col-8">
+                                            <p>送貨費用</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p>順豐到付</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="checkhout__total">
+                                    <div class="checkout__info-item row">
+                                        <div class="col-8">
+                                            <h4>訂單金額</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-eng">HK$888.00</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5 shipping__form-item shipping__form-item-02">
+                            <div class="shipping__heading">
+                                <h3>支付方式</h3>
+                            </div>
+                            <div class="form__checkbox-wrap form__row shipping__checkbox-row">
+                                <label for="checkout__form-radio-01" class="form__checkbox-label form__input-label">
+                                    <input type="radio" id="checkout__form-radio-01" class="shipping__form-radio"
+                                           name="checkout__form-radio">
+                                    Paypal
+                                    <span class="checkmark"></span></label>
+                                <p>
+                                    Visa/Master/AE/PayPal PayPal 是什麼?
+                                    <img src="img/purchase-page/payment_logo.png" alt=""><br/><br/>
+                                </p>
+                            </div>
+                            <div class="form__checkbox-wrap form__row shipping__checkbox-row">
+                                <label for="checkout__form-radio-02" class="form__checkbox-label form__input-label">
+                                    <input type="radio" id="checkout__form-radio-02" class="shipping__form-radio"
+                                           name="checkout__form-radio">
+                                    銀行轉賬
+                                    <span class="checkmark"></span></label>
+                                <p>
+                                    請於下單後將款項轉帳到我們的恒生銀行戶口：239-513153-883（公司名稱: Kind High
+                                    Limited），並將銀行收據（請在收據上寫上你的姓名,電話號碼及訂單編號，例如：2000001234）
+                                    於下午4時前透過WhatsApp傳送至63748388，當確認收到款項後，我們的客戶服務團隊會透過電子郵件或WhatsApp作出確認，並立即處理訂單。
+
+                                    <span class="comment">*請注意訂單一經確認，恕不退款。</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shipping-content__wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-7 shipping__form-item shipping__form-item-01">
+                            <div class="shipping__heading">
+                                <h3>送貨資料</h3>
+                            </div>
+                            <div class="form__input-wrap">
+                                <label for="shipping__email" class="form__input-label">電子郵件地址</label>
+                                <input type="email" id="shipping__email" class="form__input" required>
+                            </div>
+                            <div class="form__row">
+                                <div class="form__col form__col-first">
+                                    <div class="form__input-wrap">
+                                        <label for="shipping__fname" class="form__input-label">名字</label>
+                                        <input type="text" id="shipping__fname" class="form__input" required>
+                                    </div>
+                                </div>
+                                <div class="form__col form__col-last">
+                                    <div class="form__input-wrap">
+                                        <label for="shipping__lname" class="form__input-label">姓氏</label>
+                                        <input type="text" id="shipping__lname" class="form__input" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__input-wrap">
+                                <label class="form__input-label shipping__input-address">街道地址
+                                    <input type="text" class="form__input form__input-shipinfo" required>
+                                </label>
+                                <input type="text" class="form__input form__input-shipinfo">
+                            </div>
+                            <div class="form__row">
+                                <div class="form__col form__col-first">
+                                    <div class="form__input-wrap">
+                                        <label for="shipping__city" class="form__input-label">城市</label>
+                                        <input type="text" id="shipping__city" class="form__input" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__input-wrap">
+                                <label for="shipping__textarea" class="form__input-label">
+                                    順豐站點碼 <br>
+                                    如顧客選擇到順豐站取貨，請提供順豐站點碼。 例子：請填 852BDL代表九龍旺角先達廣場順豐站
+                                </label>
+                                <textarea class="form__textarea" id="shipping__textarea" rows="1" required></textarea>
+                            </div>
+                            <div class="form__row">
+                                <div class="form__col form__col-first">
+                                    <div class="form__input-wrap">
+                                        <label for="shipping__tel" class="form__input-label">電話號碼</label>
+                                        <input type="tel" id="shipping__tel" class="form__input" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5 shipping__form-item shipping__form-item-02">
+                            <div class="shipping__heading">
+                                <h3>送貨方式</h3>
+                            </div>
+                            <div class="form__checkbox-wrap form__row shipping__checkbox-row">
+                                <label for="shipping__form-radio-01" class="form__checkbox-label form__input-label">
+                                    <input type="radio" id="shipping__form-radio-01" class="shipping__form-radio"
+                                           name="shipping__form-radio">
+                                    柴灣自取
+                                    <span class="checkmark"></span></label>
+                                <p>
+                                    請致電2777-8134與客戶服務部聯絡確認取貨時間，可於以下地址及時間免費自取。地址：柴灣嘉業街18號明報工業中心B座19樓1907室，
+                                    （到達請按門鐘），時間：星期一至五早上9時至下午5時，（星期六、日及公眾假期休息），取貨時必須出示訂單編號、姓名及聯絡電話號碼。
+                                </p>
+                            </div>
+                            <div class="form__checkbox-wrap form__row shipping__checkbox-row">
+                                <label for="shipping__form-radio-02" class="form__checkbox-label form__input-label">
+                                    <input type="radio" id="shipping__form-radio-02" class="shipping__form-radio"
+                                           name="shipping__form-radio">
+                                    順豐到付
+                                    <span class="checkmark"></span></label>
+                                <p>
+                                    顧客於取貨時繳付運費給順豐，運費不會反映於訂單上。有關收費詳情請電：27300273向順豐速運查詢。
+                                    顧客如選擇到順豐站取貨請填上順豐站店碼，詳請請到以下網址查詢：<span class="break">http://www.sf-express.com/hk/tc/others/Contact_Us/SF_store_address/</span>
+                                </p>
+                            </div>
+                            <div class="form__submit-wrap">
+                                <button type="submit" class="button button_orange">下一步</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+        <a href="index.html" class="footer__logo">
+            <img src="img/logo.svg" alt="EnfantSkin Logo">
+        </a>
+
+        <div class="footer-social">
+            <a href="#" class="footer-social__link">
+                <svg class="icon">
+                    <use xlink:href="css/symbol-defs.svg#icon-mail"></use>
+                </svg>
+            </a>
+            <a href="#" class="footer-social__link">
+                <svg class="icon">
+                    <use xlink:href="css/symbol-defs.svg#icon-insta"></use>
+                </svg>
+            </a>
+            <a href="#" class="footer-social__link">
+                <svg class="icon">
+                    <use xlink:href="css/symbol-defs.svg#icon-fb"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="footer-contact">
+            <a href="tel:68998688" class="footer-contact__item">
+                <span class="footer-contact__icon">
+                    <svg class="icon">
+                    <use xlink:href="css/symbol-defs.svg#icon-messenger"></use>
+                    </svg>
+                     </span>
+                6899 8688
+            </a>
+            <a href="tel:28136188" class="footer-contact__item">
+                <span class="footer-contact__icon">
+                    <svg class="icon">
+                    <use xlink:href="css/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                       </span>
+                2813 6188
+            </a>
+            <div class="footer-contact__address">
+                香港柴灣嘉業街18號明報工業中心B座19樓1907室
+            </div>
+        </div>
+        <div class="footer-privacy text-eng">
+            <a href="#" class="footer-privacy__link">Privacy Policy</a>
+            <p>Copyright © 2018 Water Oasis Group Limited. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="js/vendor/jquery-3.2.1.min.js"></script>
+<script src="modules/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/vendor/svgxuse.js"></script>
+<script src="js/vendor/slick/slick.js"></script>
+<script src="js/vendor/jquery.inputmask.bundle.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

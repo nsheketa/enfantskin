@@ -1,0 +1,78 @@
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(34, 31, 31, 0.7);
+  z-index: 99;
+  display: none;
+  @include transition(0.3s all ease-in-out);
+}
+
+.product__celabio {
+  background-color: #fee7d5;
+}
+
+.product__modal-img {
+  img {
+    width: 100%;
+  }
+}
+
+.product__modal-content-wrap {
+  text-align: center;
+  margin: 0 -10px;
+  padding: 2rem 10px 4rem;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.product__modal-heading {
+  color: #19171c;
+  margin-bottom: 2rem;
+  h2 {
+    margin-bottom: 0px;
+  }
+}
+
+.product__modal-subheading {
+  text-transform: uppercase;
+  @include font-size(25);
+  @include respond(1350) {
+    @include font-size(22);
+  }
+  @include respond(1024) {
+    @include font-size(20);
+  }
+}
+
+.product__modal-content {
+  max-width: 600px;
+  @include center();
+
+  @include respond(1350) {
+    max-width: 577px;
+  }
+}
+
+.product__modal-logo {
+  width: 100px;
+
+  @include respond(768) {
+    margin-bottom: 10px;
+  }
+}
+
+.product__modal-copyright {
+  color: #897755;
+  @include font-size(14);
+  margin-left: auto;
+
+  @include respond(768) {
+    margin-left: 0;
+    line-height: 1.3;
+  }
+}

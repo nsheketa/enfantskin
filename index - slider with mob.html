@@ -1,0 +1,718 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--<link rel="manifest" href="site.webmanifest">-->
+
+    <!--<link rel="shortcut icon" href="img/tab.ico">-->
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<div class="header__outer">
+    <header class="header">
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+
+        <div class="header__inner">
+            <div class="header__top">
+                <div class="container d-flex">
+                    <div class="header-top__item header-lang">
+                        <a href="#" class="header-lang__link">中</a>
+                        <a href="#" class="header-lang__link text-eng">ENG</a>
+                    </div>
+                    <div class="header-top__item header-register">
+                        <a href="login.html" class="header-register__item header-register__link">登入</a>
+                        <a href="register.html" class="header-register__item header-login__link">註冊</a>
+                    </div>
+                    <div class="header-top__item header-socials text-eng">
+                        <a href="#" class="header-socials__link">
+                            <svg class="icon">
+                                <use xlink:href="css/symbol-defs.svg#icon-fb"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="header-socials__link">
+                            <svg class="icon">
+                                <use xlink:href="css/symbol-defs.svg#icon-insta"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header-top__item header-contact">
+                        <a href="tel:31827777" class="header-contact__link">
+                            <svg class="icon">
+                                <use xlink:href="css/symbol-defs.svg#icon-phone"></use>
+                            </svg>
+                            <span class="header-contact__text">3182 7777</span>
+                        </a>
+                        <a href="tel:61827777" class="header-contact__link">
+                            <svg class="icon">
+                                <use xlink:href="css/symbol-defs.svg#icon-messenger"></use>
+                            </svg>
+                            <span class="header-contact__text">6182 7777</span>
+                        </a>
+                    </div>
+                </div>
+            </div>  <!--header-top-->
+
+            <div class="header__center">
+                <div class="container">
+                    <nav class="header-nav">
+                        <a href="index.html" class="header__logo hide-in-mob">
+                            <img src="img/logo.svg" alt="EnfantSkin Logo">
+                        </a>
+                        <ul class="header-menu__list">
+                            <li class="header-menu__list-item">
+                                <a href="story.html" class="header-menu__list-link"><span
+                                        class="text-eng">Enfantskin</span>故事</a>
+                            </li>
+                            <li class="header-menu__list-item">
+                                <a href="purchase.html" class="header-menu__list-link">
+                                    <svg class="icon">
+                                        <use xlink:href="css/symbol-defs.svg#icon-bag"></use>
+                                    </svg>
+                                    立即購買！</a>
+                            </li>
+                            <li class="header-menu__list-item">
+                                <a href="tips.html" class="header-menu__list-link">年輕提示</a>
+                            </li>
+                            <li class="header-menu__list-item">
+                                <a href="news.html" class="header-menu__list-link">最新消息</a>
+                            </li>
+                            <li class="header-menu__list-item">
+                                <a href="contact.html" class="header-menu__list-link">聯絡我們</a>
+                            </li>
+                        </ul>
+                        <div class="header__cart hide-in-mob">
+                            <div class="product__btn-wrap btn-blue__sm-wrap">
+                                <a href="#header__cart-modal"
+                                   class="header__cart-link button button_blue button_blue-sm">購物車</a>
+                            </div>
+                        </div>
+                    </nav>  <!--header-nav-->
+                </div>
+            </div>
+
+            <ul class="header-categories__list">
+                <li class="header-categories__list-item">
+                    <a href="product-mask.html" class="header-categories__list-link">
+                    <span class="header-categories__icon"
+                          style="background-image: url('img/general/header-icon-01.svg')"></span>
+                        <div class="header-categories__list-content">
+                            <span class="header-categories__list-text">活顏注氧面膜</span>
+                            <span class="text-eng header-categories__list-link-comment">CO<span
+                                    class="text__sub">2</span> Bubble Mask</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="header-categories__list-item">
+                    <a href="product-hydration.html" class="header-categories__list-link">
+                        <span class="header-categories__icon"
+                              style="background-image: url('img/general/header-icon-02.svg')"></span>
+                        <div class="header-categories__list-content">
+                            <span class="header-categories__list-text"><span class="text-eng">B5</span>特強補濕精華</span>
+                            <span class="text-eng header-categories__list-link-comment">快將推出</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="header-categories__list-item">
+                    <a href="product-sun.html" class="header-categories__list-link">
+                    <span class="header-categories__icon"
+                          style="background-image: url('img/general/header-icon-03.svg')"></span>
+                        <div class="header-categories__list-content">
+                            <span class="header-categories__list-text">抗<span class="text-eng">UV</span>修護防曬霜</span>
+                            <span class="text-eng header-categories__list-link-comment">快將推出</span>
+                        </div>
+                    </a>
+                </li>
+            </ul> <!--header-categories-->
+
+        </div>  <!--header-inner-->
+
+        <div class="header__logo-wrap show-in-mob">
+            <a href="index.html" class="header__logo">
+                <img src="img/logo.svg" alt="EnfantSkin Logo">
+            </a>
+        </div> <!--header-logo-->
+        <div class="header__cart show-in-mob">
+            <div class="product__btn-wrap btn-blue__sm-wrap">
+                <a href="#header__cart-modal" class="header__cart-link button button_blue button_blue-sm">購物車</a>
+            </div>
+        </div>
+    </header>
+    <div class="container header__cart-container">
+        <div id="header__cart-modal" class="header__cart-modal">
+            <div class="header__cart-item">
+                <div class="header__cart-row">
+                    <span class="header__cart-num text-eng">1</span>
+                    <span class="header__cart-comment">項目 購物車小計：</span>
+                    <span class="header__cart-price text-eng">HK$48.00</span>
+                </div>
+                <div class="header__cart-row">
+                    <span class="header__cart-name">活顏注氧面膜（10包裝）</span>
+                </div>
+                <div class="header__cart-row header__cart-quantity">
+                    <span class="product__quantity-title">數量：</span>
+                    <button class="product__quantity-btn product__quantity-decrease">-</button>
+                    <div class="form-input__wrap form-input__num-wrap">
+                        <input type="text" class="form__input form__input-num" value="1">
+                    </div>
+                    <button class="product__quantity-btn product__quantity-increase">+</button>
+                </div>
+                <button type="button" class="header__cart-remove-item">
+                    <svg class="icon">
+                        <use xlink:href="css/symbol-defs.svg#icon-close"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="header__cart-action">
+                <a href="cart.html" class="button button_blue-common">編輯購物車</a>
+                <a href="checkout.html" class="button button_pink">結賬</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--<nav class="breadcrumb__list">-->
+<!--<div class="container">-->
+<!--&lt;!&ndash;<ol>&ndash;&gt;-->
+<!--&lt;!&ndash;<li class="breadcrumb__list-item is-active"><a href="index.html" class="breadcrumb__list-link">主頁</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;</ol>&ndash;&gt;-->
+<!--</div>-->
+<!--</nav>-->
+
+<main class="main home">
+    <section class="homepage__intro">
+        <div class="intro__slider-wrap">
+            <div class="container">
+                <h1 class="">
+                    阿<span class="text__red">S</span>a 推薦&nbsp;&nbsp;ThE <span class="text__red">Be</span>ST faCE M<span
+                        class="text__red">A</span>SK iN 2019.
+                    <!--
+                    阿<span class="text-eng"><span class="text__red">S</span>a</span>最<span class="text__red">鍾</span>意用嘅<span
+                        class="text-eng">M<span class="text__red">a</span>sk<span class="text__red">！</span></span>
+-->
+                    <!--Th<span class="text__red">E</span> <span class="text__red">B</span>eST C<span
+                                            class="text__red">O</span>2 BuBbl<span class="text__red">E</span>
+                                        MA<span class="text__red">S</span>k iN 2<span class="text__red">0</span>19.-->
+                </h1>
+            </div>
+            <div class="intro__slider">
+                <div><a href="purchase.html">
+                    <img class="hide-in-mob" src="img/homepage/intro-slider-01.png" alt="">
+                    <img class="show-in-mob" src="img/homepage/intro-slider-01-m.png" alt="">
+                </a></div>
+                <div class="intro__slider-product-slide"><a href="purchase.html">
+                    <img class="show-in-mob" src="img/homepage/intro-slider-02-m.png" alt=""></a></div>
+                <div><a href="purchase.html">
+                    <img class="hide-in-mob" src="img/homepage/intro-slider-03.png" alt="">
+                    <img class="show-in-mob" src="img/homepage/intro-slider-03-m.png" alt="">
+                </a></div>
+
+                <div class="intro__slider-product-slide"><a href="purchase.html">
+                    <img class="hide-in-mob" src="img/homepage/intro-slider-04.png" alt="">
+                    <img class="show-in-mob" src="img/homepage/intro-slider-04-m.png" alt="">
+                </a></div>
+                <div><a href="purchase.html">
+                    <img class="hide-in-mob" src="img/homepage/intro-slider-05.png" alt="">
+                    <img class="show-in-mob" src="img/homepage/intro-slider-05-m.png" alt="">
+                </a></div>
+                <div class="intro__slider-product-slide"><a href="purchase.html">
+                    <img class="hide-in-mob" src="img/homepage/intro-slider-06.png" alt="">
+                    <img class="show-in-mob" src="img/homepage/intro-slider-06-m.png" alt="">
+                </a></div>
+            </div>
+        </div>
+        <div class="homepage__intro-content homepage__intro-content-01"
+             style="background-image: url('img/homepage/bg-01.png')">
+            <div class="buy-now__wrap">
+                <!--<div class="buy-now__btn-wrap">-->
+                <a href="purchase.html" class="buy-now__btn">立即 <br>購買</a>
+                <!--</div>-->
+                <div class="buy-now__product-wrap">
+                    <div class="buy-now__product">
+                        <div class="buy-now__product-img">
+                            <img src="img/homepage/buy-now-product-01.png" alt="">
+                        </div>
+                        <p>$880/10包裝</p>
+                    </div>
+                    <div class="buy-now__product">
+                        <div class="buy-now__product-img">
+                            <img src="img/homepage/buy-now-product-02.png" alt="">
+                        </div>
+                        <p>$480/5包裝</p>
+                    </div>
+                    <h4>活顏注氧面膜</h4>
+                </div>
+            </div>
+            <div class="homepage__intro-heading">
+                <div class="container">
+                    <h2 class="text-eng">CHa<span class="text__red">R</span>LENE C<span class="text__red">h</span>Oi
+                    </h2>
+                    <h4>一年最開心嗰日，理應係生日。幾多歲開始，變咗女人最擔心嗰日？</h4>
+                    <h4>
+                        人大咗，加上生活壓力同日曬UV，皮膚愈嚟愈曳，特別係新陳代謝變慢，肌膚嘅膠原就愈嚟愈唔聽話。有醫學報告指出，25歲開始，我地嘅膠原急速流失。
+                        暗啞、色斑、缺水、暗瘡、唔上粉，啲印仲遲遲唔散，認真煩！ </h4>
+                    <h4 class="font-weight-bold">好在，我搵到Enfantskin！</h4>
+                </div>
+            </div>
+        </div>
+        <div class="homepage__intro-content homepage__intro-content-02">
+            <div class="homepage__intro-img" style="background-image: url('img/homepage/intro.jpg')"></div>
+            <div class="homepage__intro-heading">
+                <div class="container">
+                    <h2>「正<span class="text__red">菜</span><span class="font-weight-normal">妍」 正</span>菜<span
+                            class="text__red">研</span><span class="font-weight-normal">究</span>室</h2>
+                    <h4>幾忙都要抽15分鐘做運動，瑜珈同慢跑都可以。<br/>
+                        再口痕都唔食零食，再口喝都淨係飲水。<br/>
+                        日日都要吸收維他命C。<br/>
+                        定期敷Enfantskin 19000ppm 活顏注氧 CO2泡泡面膜，重拾BB嫩肌！
+
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="product-slider">
+            <div class="product-slider__slide product__item product__item-left">
+                <div class="product-slider__inner">
+                    <div class="product__img">
+                        <img src="img/homepage/product-slider-01.png" alt="">
+                    </div>
+                    <div class="product__heading">
+                        <div class="h4">CO<span class="text__sub">2</span> Bubble Mask</div>
+                        <h2>活顏注氧面膜</h2>
+                        <div class="h4">一盒10包裝，每包10g</div>
+                    </div>
+                    <div class="product__reviews">
+                        <a href="#" class="product__reviews-link"></a>
+                        <span class="product__review-stars product__review-stars-5">
+                                <img src="img/general/stars-05.svg" alt="">
+                            </span>
+                        <span class="product__reviews-quantity">13個評論</span>
+                    </div>
+                    <div class="h2 product__reviews-price">$HKD888</div>
+                    <form class="add-to-cart">
+                        <div class="product__quantity">
+                            <span class="product__quantity-title">數量：</span>
+                            <button class="product__quantity-btn product__quantity-decrease">-</button>
+                            <div class="form-input__wrap form-input__num-wrap">
+                                <input type="text" class="form__input form__input-num" value="1">
+                            </div>
+                            <button class="product__quantity-btn product__quantity-increase">+</button>
+                        </div>
+                        <div class="product__btn-wrap btn-blue__md-wrap">
+                            <button class="button button_blue button_blue-md">加入購物車</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="product-slider__slide product__item product__item-right">
+                <div class="product-slider__inner">
+                    <div class="product__img">
+                        <img src="img/homepage/product-slider-02.png" alt="">
+                    </div>
+                    <div class="product__heading">
+                        <div class="h4">CO<span class="text__sub">2</span> Bubble Mask</div>
+                        <h2>活顏注氧面膜</h2>
+                        <div class="h4">一盒5包裝，每包10g</div>
+                    </div>
+                    <div class="product__reviews">
+                        <a href="#" class="product__reviews-link"></a>
+                        <span class="product__review-stars product__review-stars-5">
+                                <img src="img/general/stars-05.svg" alt="">
+                            </span>
+                        <span class="product__reviews-quantity">15個評論</span>
+                    </div>
+                    <div class="h2 product__reviews-price">$HKD488</div>
+                    <form class="add-to-cart">
+                        <div class="product__quantity">
+                            <span class="product__quantity-title">數量：</span>
+                            <button class="product__quantity-btn product__quantity-decrease">-</button>
+                            <div class="form-input__wrap form-input__num-wrap">
+                                <input type="text" class="form__input form__input-num" value="1">
+                            </div>
+                            <button class="product__quantity-btn product__quantity-increase">+</button>
+                        </div>
+                        <div class="product__btn-wrap btn-blue__md-wrap">
+                            <button class="button button_blue button_blue-md">加入購物車</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="product-slider__slide product__item product__item-left">
+                <div class="product-slider__inner">
+                    <div class="product__img">
+                        <img src="img/homepage/product-slider-01.png" alt="">
+                    </div>
+                    <div class="product__heading">
+                        <div class="h4">CO<span class="text__sub">2</span> Bubble Mask</div>
+                        <h2>活顏注氧面膜</h2>
+                        <div class="h4">一盒10包裝，每包10g</div>
+                    </div>
+                    <div class="product__reviews">
+                        <a href="#" class="product__reviews-link"></a>
+                        <span class="product__review-stars product__review-stars-5">
+                                <img src="img/general/stars-05.svg" alt="">
+                            </span>
+                        <span class="product__reviews-quantity">13個評論</span>
+                    </div>
+                    <div class="h2 product__reviews-price">$HKD888</div>
+                    <form class="add-to-cart">
+                        <div class="product__quantity">
+                            <span class="product__quantity-title">數量：</span>
+                            <button class="product__quantity-btn product__quantity-decrease">-</button>
+                            <div class="form-input__wrap form-input__num-wrap">
+                                <input type="text" class="form__input form__input-num" value="1">
+                            </div>
+                            <button class="product__quantity-btn product__quantity-increase">+</button>
+                        </div>
+                        <div class="product__btn-wrap btn-blue__md-wrap">
+                            <button class="button button_blue button_blue-md">加入購物車</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="product-slider__slide product__item product__item-right">
+                <div class="product-slider__inner">
+                    <div class="product__img">
+                        <img src="img/homepage/product-slider-02.png" alt="">
+                    </div>
+                    <div class="product__heading">
+                        <div class="h4">CO<span class="text__sub">2</span> Bubble Mask</div>
+                        <h2>活顏注氧面膜</h2>
+                        <div class="h4">一盒5包裝，每包10g</div>
+                    </div>
+                    <div class="product__reviews">
+                        <a href="#" class="product__reviews-link"></a>
+                        <span class="product__review-stars product__review-stars-5">
+                                <img src="img/general/stars-05.svg" alt="">
+                            </span>
+                        <span class="product__reviews-quantity">15個評論</span>
+                    </div>
+                    <div class="h2 product__reviews-price">$HKD488</div>
+                    <form class="add-to-cart">
+                        <div class="product__quantity">
+                            <span class="product__quantity-title">數量：</span>
+                            <button class="product__quantity-btn product__quantity-decrease">-</button>
+                            <div class="form-input__wrap form-input__num-wrap">
+                                <input type="text" class="form__input form__input-num" value="1">
+                            </div>
+                            <button class="product__quantity-btn product__quantity-increase">+</button>
+                        </div>
+                        <div class="product__btn-wrap btn-blue__md-wrap">
+                            <button class="button button_blue button_blue-md">加入購物車</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="product-slider__slide product__item product__item-left">
+                <div class="product-slider__inner">
+                    <div class="product__img">
+                        <img src="img/homepage/product-slider-01.png" alt="">
+                    </div>
+                    <div class="product__heading">
+                        <div class="h4">CO<span class="text__sub">2</span> Bubble Mask</div>
+                        <h2>活顏注氧面膜</h2>
+                        <div class="h4">一盒10包裝，每包10g</div>
+                    </div>
+                    <div class="product__reviews">
+                        <a href="#" class="product__reviews-link"></a>
+                        <span class="product__review-stars product__review-stars-5">
+                                <img src="img/general/stars-05.svg" alt="">
+                            </span>
+                        <span class="product__reviews-quantity">13個評論</span>
+                    </div>
+                    <div class="h2 product__reviews-price">$HKD888</div>
+                    <form class="add-to-cart">
+                        <div class="product__quantity">
+                            <span class="product__quantity-title">數量：</span>
+                            <button class="product__quantity-btn product__quantity-decrease">-</button>
+                            <div class="form-input__wrap form-input__num-wrap">
+                                <input type="text" class="form__input form__input-num" value="1">
+                            </div>
+                            <button class="product__quantity-btn product__quantity-increase">+</button>
+                        </div>
+                        <div class="product__btn-wrap btn-blue__md-wrap">
+                            <button class="button button_blue button_blue-md">加入購物車</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="product-slider__slide product__item product__item-right">
+                <div class="product-slider__inner">
+                    <div class="product__img">
+                        <img src="img/homepage/product-slider-02.png" alt="">
+                    </div>
+                    <div class="product__heading">
+                        <div class="h4">CO<span class="text__sub">2</span> Bubble Mask</div>
+                        <h2>活顏注氧面膜</h2>
+                        <div class="h4">一盒5包裝，每包10g</div>
+                    </div>
+                    <div class="product__reviews">
+                        <a href="#" class="product__reviews-link"></a>
+                        <span class="product__review-stars product__review-stars-5">
+                                <img src="img/general/stars-05.svg" alt="">
+                            </span>
+                        <span class="product__reviews-quantity">15個評論</span>
+                    </div>
+                    <div class="h2 product__reviews-price">$HKD488</div>
+                    <form class="add-to-cart">
+                        <div class="product__quantity">
+                            <span class="product__quantity-title">數量：</span>
+                            <button class="product__quantity-btn product__quantity-decrease">-</button>
+                            <div class="form-input__wrap form-input__num-wrap">
+                                <input type="text" class="form__input form__input-num" value="1">
+                            </div>
+                            <button class="product__quantity-btn product__quantity-increase">+</button>
+                        </div>
+                        <div class="product__btn-wrap btn-blue__md-wrap">
+                            <button class="button button_blue button_blue-md">加入購物車</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="pages-list">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-6 col-md-4">
+                    <div class="pages-list__item-img pages-list__item-bg-01"
+                         style="background-image: url('img/homepage/page-links-01.png')"></div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <a href="tips.html" class="pages-list__item">
+                        <div class="pages-list__item-img"
+                             style="background-image: url('img/homepage/page-links-02.jpg')"></div>
+                        <div class="pages-list__item-title">年輕提示</div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4">
+                    <a href="story.html" class="pages-list__item pages-list__item-03">
+                        <div class="pages-list__item-img"
+                             style="background-image: url('img/homepage/page-links-03.jpg')"></div>
+                        <div class="pages-list__item-title"><span class="text-eng">ENFANTSKIN</span> <br> 故事</div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4">
+                    <a href="product-mask.html" class="pages-list__item">
+                        <div class="pages-list__item-img"
+                             style="background-image: url('img/homepage/page-links-04.jpg')"></div>
+                        <div class="pages-list__item-title">產品介紹</div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4">
+                    <a href="purchase.html" class="pages-list__item">
+                        <div class="pages-list__item-img"
+                             style="background-image: url('img/homepage/page-links-05.jpg')"></div>
+                        <div class="pages-list__item-title">立即購買</div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="pages-list__item-img pages-list__item-bg-02"
+                         style="background-image: url('img/homepage/page-links-06.png')"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="homepage__intro-content homepage__intro-content-03">
+        <div class="homepage__intro-heading">
+            <div class="container">
+                <h2>EnFA<span class="text__red">N</span>tSkIn 為<span class="font-weight-normal">何</span><span
+                        class="text__red">而</span>生<span class="text__red">?</span></h2>
+                <h4>每個女生都有一個願望：留住BB嫩肌。<br/>
+                    那是我們肌膚最完美的狀態，緊緻、幼滑， <span class="nowrap">不見毛孔，也不見瑕疵。</span><br/>
+                    Enfantskine此而生，簡單一包CO2泡泡面膜，帶走所有肌膚問題，帶回我們的<span class="nowrap">BB嫩肌。</span><br/>
+                    回復年輕．無瑕嫩肌
+
+                </h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="homepage__intro-02">
+        <!--style="background-image: url('img/homepage/intro-02.png');"-->
+        <!--<div class="container-fluid">-->
+        <!--<div class="h1 text-eng"><span>ReWiND BeAutY</span>-->
+        <!--<span>TiMelEsS SkIn</span>-->
+        <!--</div>-->
+        <!--</div>-->
+        <img src="img/homepage/intro-02.png" alt="">
+    </div>
+
+    <div class="homepage__videos">
+        <div class="container d-flex">
+            <div class="homepage__video">
+                <iframe width="400" height="250"
+                        src="https://www.youtube.com/embed/oqeK8AqFYM8?rel=0&controls=0&showinfo=0"
+                        allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                <h3>Video Title</h3>
+            </div>
+            <div class="homepage__video">
+                <iframe width="400" height="250"
+                        src="https://www.youtube.com/embed/oqeK8AqFYM8?rel=0&controls=0&showinfo=0"
+                        allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                <h3>Video Title</h3>
+            </div>
+            <div class="homepage__video">
+                <iframe width="400" height="250"
+                        src="https://www.youtube.com/embed/oqeK8AqFYM8?rel=0&controls=0&showinfo=0"
+                        allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                <h3>Video Title</h3>
+            </div>
+            <div class="homepage__video">
+                <iframe width="400" height="250"
+                        src="https://www.youtube.com/embed/oqeK8AqFYM8?rel=0&controls=0&showinfo=0"
+                        allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                <h3>Video Title</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="follow">
+        <div class="follow-item__wrap">
+            <div class="container-fluid">
+                <div class="row follow-item__heading">
+                    <div class="col-6">
+                        <p class="follow-item__title follow-item__title-orange">LIKE & FOLLOW</p>
+                    </div>
+                    <div class="col-6 text-right">
+                        <p class="follow-item__title-link">
+                            <a href="#">
+                                <svg class="icon">
+                                    <use xlink:href="css/symbol-defs.svg#icon-fb"></use>
+                                </svg>
+                                ENFANTSKIN
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row follow-item__body">
+                    <div class="col-6 follow-item">
+                        <a href="#"><img src="img/homepage/follow-01.png" alt=""></a>
+                    </div>
+                    <div class="col-6 follow-item">
+                        <a href="#"><img src="img/homepage/follow-02.png" alt=""></a>
+                    </div>
+                    <div class="col-6 follow-item">
+                        <a href="#"><img src="img/homepage/follow-03.png" alt=""></a>
+                    </div>
+                    <div class="col-6 follow-item">
+                        <a href="#"><img src="img/homepage/follow-04.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="follow-item__wrap">
+            <div class="container-fluid">
+                <div class="row follow-item__heading">
+                    <div class="col-6">
+                        <p class="follow-item__title follow-item__title-blue">LIKE & FOLLOW</p>
+                    </div>
+                    <div class="col-6 text-right">
+                        <p class="follow-item__title-link">
+                            <a href="#">
+                                <svg class="icon">
+                                    <use xlink:href="css/symbol-defs.svg#icon-insta"></use>
+                                </svg>
+                                ENFANTSKIN
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row follow-item__body">
+                    <div class="col-6 follow-item">
+                        <a href="#"><img src="img/homepage/follow-05.png" alt=""></a>
+                    </div>
+                    <div class="col-6 follow-item">
+                        <a href="#"><img src="img/homepage/follow-06.png" alt=""></a>
+                    </div>
+                    <div class="col-6 follow-item">
+                        <a href="#"><img src="img/homepage/follow-07.png" alt=""></a>
+                    </div>
+                    <div class="col-6 follow-item">
+                        <a href="#"><img src="img/homepage/follow-08.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<footer class="footer">
+    <div class="container">
+        <a href="index.html" class="footer__logo">
+            <img src="img/logo.svg" alt="EnfantSkin Logo">
+        </a>
+
+        <div class="footer-social">
+            <a href="#" class="footer-social__link">
+                <svg class="icon">
+                    <use xlink:href="css/symbol-defs.svg#icon-mail"></use>
+                </svg>
+            </a>
+            <a href="#" class="footer-social__link">
+                <svg class="icon">
+                    <use xlink:href="css/symbol-defs.svg#icon-insta"></use>
+                </svg>
+            </a>
+            <a href="#" class="footer-social__link">
+                <svg class="icon">
+                    <use xlink:href="css/symbol-defs.svg#icon-fb"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="footer-contact">
+            <a href="tel: 61827777" class="footer-contact__item">
+                <span class="footer-contact__icon">
+                    <svg class="icon">
+                    <use xlink:href="css/symbol-defs.svg#icon-messenger"></use>
+                    </svg>
+                     </span>
+                6182 7777
+            </a>
+            <a href="tel:31827777" class="footer-contact__item">
+                <span class="footer-contact__icon">
+                    <svg class="icon">
+                    <use xlink:href="css/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                       </span>
+                3182 7777
+            </a>
+            <div class="footer-contact__address">
+                香港柴灣嘉業街18號明報工業中心B座19樓1907室
+            </div>
+        </div>
+        <div class="footer-privacy text-eng">
+            <a href="#" class="footer-privacy__link">Privacy Policy</a>
+            <p>Copyright © 2018 Water Oasis Group Limited. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="js/vendor/jquery-3.2.1.min.js"></script>
+<script src="modules/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/vendor/svgxuse.js"></script>
+<script src="js/vendor/slick/slick.js"></script>
+<script src="js/vendor/jquery.inputmask.bundle.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

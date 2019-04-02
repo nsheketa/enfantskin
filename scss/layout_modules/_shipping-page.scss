@@ -1,0 +1,170 @@
+.checkout-content__wrap{
+  padding-top: 2rem;
+  .shipping__form-item-02{
+    padding-bottom: 0;
+    .shipping__heading{
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.checkout__info-item{
+  margin-bottom: 0.5rem;
+}
+
+
+.checkout__info{
+  position: relative;
+  padding: 1rem 0;
+  &:before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    background-color: $textColor;
+    width: calc(100% - 15px);
+    height: 1px;
+  }
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 8px;
+    background-color: $textColor;
+    width: calc(100% - 15px);
+    height: 1px;
+  }
+  .text-eng{
+    font-weight: 600;
+  }
+}
+
+.checkhout__total{
+  h4{
+    font-weight: 600;
+  }
+}
+
+/*-------shipping block--------*/
+.shipping-content__wrap {
+  padding: 2rem 0 4rem;
+}
+.shipping__heading{
+  margin-bottom: 2rem;
+  h3{
+    font-weight: 600;
+  }
+}
+
+.shipping__form-item {
+
+}
+
+.shipping__form-item-01{
+  @include respond(1023){
+    margin-bottom: 2rem;
+  }
+}
+
+.form__input-shipinfo {
+  width: 100%;
+  &:first-of-type{
+    margin-bottom: 10px;
+  }
+}
+
+.shipping__input-address {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+
+.shipping__form-item-02{
+  position: relative;
+  padding-bottom: 60px;
+  padding-left: 5%;
+  .shipping__heading{
+    margin-bottom: 4rem;
+  }
+  .form__submit-wrap{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  @include respond(1200){
+    padding-left: 3%;
+  }
+  @include respond(1023){
+    padding-left: 15px;
+    .shipping__heading{
+      margin-bottom: 2rem;
+    }
+  }
+  @include respond(570){
+    padding-bottom: 0;
+    .form__submit-wrap{
+      position: relative;
+      bottom: auto;
+      right: auto;
+    }
+  }
+}
+
+.shipping__checkbox-row {
+  margin-bottom: 2rem;
+  label{
+    width: 25%;
+    max-width: 25%;
+  }
+  p {
+    width: 75%;
+    max-width: 75%;
+    @include font-size(16);
+    .break{
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      word-break: break-all;
+      -ms-hyphens: auto;
+      -moz-hyphens: auto;
+      -webkit-hyphens: auto;
+      hyphens: auto;
+    }
+    .comment{
+      display: block;
+      margin-top: 1rem;
+    }
+  }
+
+  @include respond(1200){
+    label{
+      width: 35%;
+      max-width: 35%;
+    }
+    p{
+      width: 65%;
+      max-width: 65%;
+    }
+  }
+  @include respond(1023){
+    label{
+      width: 19%;
+      max-width: 19%;
+    }
+    p{
+      width: 81%;
+      max-width: 81%;
+    }
+  }
+  @include respond(570){
+    label{
+      width: 100%;
+      max-width: 100%;
+    }
+    p{
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}

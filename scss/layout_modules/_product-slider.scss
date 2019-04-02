@@ -1,0 +1,52 @@
+/*===homepage==*/
+
+.product-slider {
+
+  .product-slider__inner {
+    @include square(100%);
+    text-align: center;
+  }
+
+  .product__item {
+    text-align: center;
+  }
+
+  .product__item-left {
+    background: #fcd3c4;
+    padding: 0;
+
+    .product-slider__inner {
+      padding: 70px 8% 50px 10%;
+    }
+
+    @include respond(768) {
+      .product-slider__inner {
+        padding: 50px;
+      }
+    }
+    @include respond(570) {
+      .product-slider__inner {
+        padding: 50px 15px;
+      }
+    }
+  }
+
+  .product__item-right {
+    background: #feeabd;
+    padding: 0;
+    .product-slider__inner {
+      padding: 70px 10% 50px 8%;
+    }
+
+    @include respond(768) {
+      .product-slider__inner {
+        padding: 50px;
+      }
+    }
+    @include respond(570) {
+      .product-slider__inner {
+        padding: 50px 15px;
+      }
+    }
+  }
+}

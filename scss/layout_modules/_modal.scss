@@ -1,0 +1,247 @@
+#overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(34,31,31,0.73);
+  z-index: 99;
+  display: none;
+  @include transition(0.3s all ease-in-out);
+}
+
+.product__modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 86vw;
+  max-width: 790px;
+  max-height: 95vh;
+  overflow: auto;
+  margin: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  @include transition(0.3s all ease-in-out);
+  z-index: -1;
+  display: none;
+  background-color: #f2e7df;
+  &.is-active {
+    z-index: 100;
+  }
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.4);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  &::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  @include respond(767){
+    max-height: 90vh;
+  }
+}
+
+.modal__close{
+  @include square(23px);
+  border-radius: 0 !important;
+  border: none !important;
+  background-color: transparent;
+  line-height: 1;
+  vertical-align: top;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  z-index: 101;
+  display: block;
+  outline: none !important;
+  cursor: pointer;
+  .icon{
+    stroke: #808284;
+    @include square(23px);
+  }
+  &:hover, &:focus, &:active{
+    .icon{
+      stroke: $pinkColor;
+    }
+  }
+}
+
+.product__modal-inner{
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  padding: 50px 10px 0;
+}
+
+
+.product__modal-img{
+  img{
+    width: 100%;
+  }
+}
+
+.product__modal-content-wrap{
+  text-align: center;
+  margin: 0 -10px;
+  padding: 2rem 10px 3.5rem;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.product__modal-heading{
+  color: #19171c;
+  margin-bottom: 2rem;
+  h2{
+    margin-bottom: 0px;
+  }
+}
+
+.product__modal-subheading{
+  text-transform: uppercase;
+  @include font-size(25);
+  @include respond(1350){
+    @include font-size(22);
+  }
+  @include respond(1024){
+    @include font-size(20);
+  }
+}
+
+.product__modal-content{
+  max-width: 600px;
+  @include center();
+  p{
+
+  }
+}
+
+.product__modal-footer{
+  padding: 10px;
+  @include display-flex();
+  @include ai-flex-center();
+  line-height: 1;
+
+  @include respond(768){
+    @include flex-direction-col();
+    @include ai-flex-start();
+  }
+}
+
+.product__modal-logo{
+ width: 100px;
+
+  @include respond(768){
+    margin-bottom: 10px;
+  }
+}
+
+.product__modal-copyright{
+  color: #897755;
+  @include font-size(14);
+  margin-left: auto;
+
+  @include respond(768){
+    margin-left: 0;
+    line-height: 1.3;
+  }
+}
+
+
+
+/*--------Homepage modal----------*/
+
+.intro__modal{
+  position: fixed;
+  width: auto;
+  -webkit-transform: translate(-50%, -50%) scale(0.7,0.7);
+  -ms-transform: translate(-50%, -50%) scale(0.7,0.7);
+  transform: translate(-50%, -50%) scale(0.7,0.7);
+  background-color: #fef3ea;
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+
+  &.is-active{
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    visibility: visible;
+    opacity: 1;
+    z-index: 100;
+  }
+}
+
+.intro__modal-inner{
+  @include square(100%);
+  position: relative;
+  padding: 30px;
+  max-height: inherit;
+  .modal__close{
+    right: 7px;
+    top: 7px;
+    .icon{
+      stroke: $pinkColor;
+    }
+  }
+  @include respond(570){
+    padding: 20px;
+    .modal__close{
+      right: 3px;
+      top: 1px;
+      @include square(18px);
+      .icon{
+        @include square(18px);
+      }
+    }
+  }
+}
+
+.intro__modal-img{
+  max-height: 85vh;
+  img{
+    width: auto;
+    height: auto;
+    max-height: inherit;
+  }
+
+  @include respond(1024){
+    max-height: unset;
+    max-width: 65vw;
+    img{
+      max-width: inherit;
+    }
+  }
+  @include respond(768){
+    max-height: unset;
+    max-width: 75vw;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) and (max-width: 1024px){
+  .intro__modal-img{
+    img{
+     max-width: 100%;
+    }
+  }
+}

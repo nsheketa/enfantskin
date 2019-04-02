@@ -1,0 +1,74 @@
+@import "custom-variables";
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('#{$fontsUrl}Avenir-Light.eot');
+  src: url('#{$fontsUrl}Avenir-Light.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontsUrl}Avenir-Light.woff2') format('woff2'),
+  url('#{$fontsUrl}Avenir-Light.woff') format('woff'),
+  url('#{$fontsUrl}Avenir-Light.ttf') format('truetype'),
+  url('#{$fontsUrl}Avenir-Light.svg#Avenir-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('#{$fontsUrl}Avenir-Medium.eot');
+  src: url('#{$fontsUrl}Avenir-Medium.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontsUrl}Avenir-Medium.woff2') format('woff2'),
+  url('#{$fontsUrl}Avenir-Medium.woff') format('woff'),
+  url('#{$fontsUrl}Avenir-Medium.ttf') format('truetype'),
+  url('#{$fontsUrl}Avenir-Medium.svg#Avenir-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('#{$fontsUrl}Avenir-Heavy.eot');
+  src: url('#{$fontsUrl}Avenir-Heavy.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontsUrl}Avenir-Heavy.woff2') format('woff2'),
+  url('#{$fontsUrl}Avenir-Heavy.woff') format('woff'),
+  url('#{$fontsUrl}Avenir-Heavy.ttf') format('truetype'),
+  url('#{$fontsUrl}Avenir-Heavy.svg#Avenir-Heavy') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('#{$fontsUrl}Avenir-Black.eot');
+  src: url('#{$fontsUrl}Avenir-Black.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontsUrl}Avenir-Black.woff2') format('woff2'),
+  url('#{$fontsUrl}Avenir-Black.woff') format('woff'),
+  url('#{$fontsUrl}Avenir-Black.ttf') format('truetype'),
+  url('#{$fontsUrl}Avenir-Black.svg#Avenir-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Univers Condensed';
+  src: url('#{$fontsUrl}UniversCondensed.eot');
+  src: url('#{$fontsUrl}UniversCondensed.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontsUrl}UniversCondensed.woff2') format('woff2'),
+  url('#{$fontsUrl}UniversCondensed.woff') format('woff'),
+  url('#{$fontsUrl}UniversCondensed.ttf') format('truetype'),
+  url('#{$fontsUrl}UniversCondensed.svg#UniversCondensed') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansHant';
+  src: url('#{$fontsUrl}NotoSansHant-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
